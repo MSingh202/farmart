@@ -1,0 +1,7 @@
+How It Works
+Reads the log file line by line (prevents high memory usage).
+Uses multiprocessing to process chunks of the file in parallel.
+Filters logs efficiently by checking if the line starts with the given date.
+Writes output to a file in the output/ directory.
+
+
